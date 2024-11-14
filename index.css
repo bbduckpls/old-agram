@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.container {
+    padding: 15px;
+}
+
+h2,
+h3,
+p,
+span {
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #c6c6c6;
+}
+
+.app-logo {
+    width: 127px;
+}
+
+.avatar {
+    height: 34px;
+    width: 34px;
+    border-radius: 100%;
+}
+
+/* post */
+
+#full-post {
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+/* post header */
+
+.post-header {
+    display: flex;
+    align-items: center;
+}
+
+.post-header-details {
+    padding-left: 7px;
+}
+
+.bold {
+    font-size: 0.813rem;
+    font-weight: 700;
+}
+
+.location {
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+/* post details */
+
+.post-img {
+    width: 100%;
+}
+
+.post-img:hover {
+    cursor: pointer;
+}
+
+.icon {
+    width: 23px;
+    padding-right: 10px;
+}
+
+.icon:hover {
+    opacity: 80%;
+    transform: scale(1.1);
+}
+
+.heart:hover {
+    cursor: pointer;
+}
+
+.small-container {
+    padding: 21px 19px 16px 10px;
+    border-bottom: 1px solid #c6c6c6;
+}
+
+.likes {
+    padding: 12px 0;
+}
+
+.post-desc {
+    font-weight: 400;
+}
